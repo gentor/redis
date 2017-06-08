@@ -163,7 +163,7 @@ class PhpRedisConnection extends Connection
      * @param  dynamic  $arguments
      * @return mixed
      */
-    public function eval($script, $numberOfKeys, ...$arguments)
+    public function evalphp($script, $numberOfKeys, ...$arguments)
     {
         return $this->client->eval($script, $arguments, $numberOfKeys);
     }

@@ -4,7 +4,7 @@ namespace Illuminate\Redis;
 
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
-use Illuminate\Contracts\Redis\Factory;
+use Illuminate\Redis\Contracts\Factory;
 
 class RedisManager implements Factory
 {

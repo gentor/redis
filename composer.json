@@ -1,5 +1,5 @@
 {
-    "name": "illuminate/redis",
+    "name": "gentor/redis",
     "description": "The Illuminate Redis package.",
     "license": "MIT",
     "homepage": "https://laravel.com",
@@ -11,12 +11,15 @@
         {
             "name": "Taylor Otwell",
             "email": "taylor@laravel.com"
+        },
+        {
+            "name": "Evgeni Nurkov",
+            "email": "evgeni.nurkov@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "illuminate/contracts": "5.5.*",
-        "illuminate/support": "5.5.*",
+        "php": ">=5.6",
+        "illuminate/support": "5.3.*",
         "predis/predis": "~1.0"
     },
     "autoload": {
@@ -26,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "5.5-dev"
+            "dev-master": "5.3-dev"
         }
     },
     "config": {
